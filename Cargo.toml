@@ -1,0 +1,14 @@
+[package]
+name = "adventofcode-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+macros ={ path = "macros" }
+clap = { version = "4.2.7", features = ["derive"] }
+paste = "1.0.12"
+reqwest = { version = "0.11.17", features = ["blocking"] }
+serde = { version = "1.0.160", features = ["derive"] }
+toml = "0.7.3"
